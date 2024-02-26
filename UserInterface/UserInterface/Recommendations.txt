@@ -1,0 +1,468 @@
+﻿1001 2001 3001 Compressor Flow Path / Failure Description:
+Compressor does NOT respond to control signals.
+Possible Cause:
+• Blocked output				
+• Tubing kinked
+• Connector loose				
+• Diffuser or flow screen issue
+1. Does not present at power up
+• Use Conditions (Possible settings conflict or the patient gas output was blocked during operation).
+• Download forensic memory using RCS consult technical support.
+2. Presents at power up.
+• Check tubing -> tubing kinked or disconnected-> Correct tubing.
+• Check compressor cable for proper connection -> dislodged connector -> re-seat connector.
+• Check diffuser screen, check flow screen ->collapsed diffuser screen or wet flow screen - replace Flow Screen.
+#
+1002 2002 3003 Internal communication Compressor (Failure/Faults) Description:
+Compressor flow signal.
+- High, Low, or Stuck.
+Possible Cause:
+• Tubing kinked or disconnected.		
+• Faulty compressor flow transducer.
+• Check tubing -> tubing kinked or disconnected-> Correct tubing.
+• Check Flow transducer -> Bad flow transducer.
+• Contaminate inside the flow manifold.
+• Replace SPM board.
+• Replace Compressor.
+#
+1003 Sensor/ Transducers/Cal file Failures Description:
+Fails power-on self-check breath.
+Possible Cause:
+• Calibration error.				
+• Foreign substances in screen.
+• Faulty compressor flow transducer.		
+• calibration Error -> Calibrate.
+• check diffuser screen check flow screen ->collapsed diffuser screen, foreign substances contamination or wet flow screen - replace screen.
+• Bad flow transducer.
+#
+1010 O2 Valve Failure Description:
+O2 Valve Failure (O2 Valve Failed Open) 
+The O2 Valve fails in the open position which results in flow even during expiratory phase. When this
+occurs, the unit automatically opens the exhalation valve to prevent pressure from building in the patient circuit. 
+and ventilation stops.
+Possible Cause:
+• Recalibrate unit.				
+• Debris on the O2 input filter and manifold.
+• O2 valve / debris on the valve seat.
+• Check O2 input filter and manifold -> Debris on the O2 input filter and manifold -> Replace O2 input filter.
+• Exercise ventilator at 100% FIO2, 50BPM for 5 minutes.
+• Replace O2 valve.
+#
+1011 2011 3011 O2 Flow Path (Failure/Faults) Description:
+Loss of O2 Flow control.
+Possible Cause:
+• O2 valve cable faulty or loose Tubing kinked/ damaged/ disconnected.
+• Faulty valve drive circuit.
+• Check O2 Valve Cable -> O2 valve cable faulty or loose -> Correct cable or replace O2 valve.
+• Check 02 Flow transducer tubing -> Tubing kinked/ damaged/disconnected -> Correct tubing.
+• Replace SPM Board.
+#
+1012 2012 3012 Internal communication Valve (Failure/ Faults) Description:
+The signal from the O2 flow sensor to the SPM fails.
+Possible Cause:
+• Kinked or disconnected tube.		
+• SPM contamination near O2 flow transducer.
+• Faulty O2 flow transducer.		
+• Check 02 Flow transducer tubing ->Kinked or disconnected tube -> correct tubing.
+• Check SPM board ->SPM contamination near O2 flow transducer-> Replace SPM Board.
+#
+2020 Low O2 Supply Fault Description:
+O2 supply pressure < 35 psi
+Possible Cause:
+• O2 supply leak.
+• O2 supply regulator failure.
+• Debris in the high pressure O2 inlet.
+• Internal hose disconnected.
+• Clogged or damaged high pressure O2 barb.
+• Check the O2 supply for leaks -> O2 supply leak -> Correct O2 supply.
+• Check O2 regulator -> O2 supply regulator failure -> Replace O2 regulator.
+• Check High Pressure inlet -> debris in the high pressure O2 inlet -> Clear high-pressure inlet.
+• Check internal high-pressure tubing ->Internal tube disconnect -> Correct tubing.
+• Check High Pressure O2 barb -> Clogged or damaged high pressure O2 barb-> Replace Flow Manifold.
+#
+1030 2030 3030 Gas Intake (Failure/Faults) Description:
+Insufficient flow or blocked fresh gas intake.
+Possible Cause:
+• Fresh gas intake assembly error.
+• Dirty/wet filters.
+• Check fresh gas intake assembly -> fresh gas intake assembly and disk filter may be install incorrectly -> Correct error
+• Check fresh gas intake filters -> Dirty/wet filters -> Replace filters.
+• Recalibrate unit.
+• Replace SPM board.
+#
+3031 Intake Restricted Description:
+Insufficient flow from fresh gas intake.
+Possible Cause:
+• O2 reservoir in use.
+• Fresh gas intake assembly error.
+• Intake partially occluded.
+• Dirty/wet filters.
+• Improperly installed filter.
+• Kinked tubing.
+• Is the O2 reservoir in use ->O2 reservoir in use -> Select Reservoir in use from the O2 sub menu.
+• Check fresh gas intake assembly -> fresh gas intake assembly the disk filter may be install incorrectly -> Correct error.
+• Check Fresh gas intake for partial occlusions ->Intake partially occluded -> Correct occlusions.
+• Check filters ->Dirty/wet filters -> Replace filters.
+• Check filters ->improperly installed filter -> Correct filters.
+• Check intake transducer tubing ->Kinked tubing-> Correct/replace tubing.
+• Recalibrate unit.
+• Replace SPM board.
+#
+3032 Sensor and Transducer Faults Description:
+Signal from the Fresh Gas/ Intake pressure sensor is stuck High or Low
+Possible Cause:
+• Kinked tubing.
+• Faulty intake pressure transducer.
+• Check intake transducer tubing -> Kinked tubing -> correct tubing.
+• Replace SPM Board.
+#
+1041 3041 High O2 Supply (Failure/Fault) Description:
+O2 input pressure too high.
+Possible Cause:
+• O2 supply pressure too high.			
+• Faulty regulator.
+• Faulty O2 Pressure Transducer.		
+• Check O2 supply-> O2 supply pressure too high->Decrease O2 supply.
+• Check O2 regulator ->Faulty regulator -> Replace O2 regulator on O2 inlet
+• Faulty SPM Board>Replace SPM Board.
+#
+1051 Self Check Failure Description:
+Run-Time Calibration Failure
+Possible Cause:
+• Kinked hose.
+• Auto Cal valve.
+• Ventilator needs calibration.
+• Faulty transducer.
+• Persistent high vibration or electrically noisy environment.
+1. To Check for kinked tube or auto Cal valve. Does it occur at startup, or does it occur while the device is running?
+A. At startup implicates transducer or kinked CF/OF/Auto Cal pathway hose->Correct hose.
+B. Runtime implicates auto Cal valve->Replace SPM Board.
+2. Run Exhalation, Backup and Auto Cal valve check to make sure valves are good-valve failure->replace SPM board.
+3. To Check Calibration.
+4. If valves are good, run calibration checks for O2 flow, compressor flow, and airway pressure to see if one is out of spec->Calibration error->Calibrate.
+5. Rerun calibration for failing calibrations (if this works, it means a transducer offset shifted since device was last calibrated)->unable to calibrate->replace SPM Board.
+#
+1052 Self Check Failure Description:
+Airway pressure signal is stuck high or stuck low or is unchanging.
+Possible Cause:
+• Calibration drift.
+• Kinked tubing.
+• Bad airway pressure transducer.
+• Contamination on PCB near airway pressure transducer / PGA.
+• Check calibration -> calibration drift ->recalibrate.
+• Check AW Pressure/Auto Cal pathway tubing ->kinked tubing -> Correct tubing.
+• Bad airway pressure transducer -> Replace SPM Board.
+• Check SPM PCB for contamination -> Replace SPM Board.
+#
+1060 Exhalation System Failure Description:
+PEEP higher than greater of PIP high limit - 5 cmH2O or PEEP + 2.5 cmH2O for 3 consecutive breaths
+Possible Cause:
+• Kinked tubing.
+• debris/blockage in exhalation drive or exhaust port.
+• Blocked/occluded exhalation valve.
+• Pinched patient circuit line.
+• Faulty exhalation/ backup valve (EX_CON_1, EX_CON_2).
+• Check AW Pressure/Auto Cal pathway for kinked tubing -> Kinked tubing -> correct tubing.
+• Check drive and exhalation tubing ports -> debris/ blockage in exhalation drive or exhaust port -> correct tubing / clean ports.
+• Check exhalation valve -> Blocked/occluded exhalation valve ->replace patient circuit.
+• Check patient circuit ->Pinched patient circuit tubing - >correct pinch.
+• Check exhalation/backup valve with RCS -> Faulty exhalation/backup valve (EX_CON_1, EX_CON_2) -> replace SPM Board.
+#
+1061 Exhalation System Failure Description:
+(Airway Pressure > 70 cmH2O for 1.5s) OR (Airway Pressure > greater of 35 cmH2O or PIP High Limit for 5s).
+Possible Cause:
+• Blocked Exhalation drive or exhaust port.
+• Blocked exhalation valve.
+• Kinked tubing.
+• Faulty airway pressure transducer.
+• Check Exhalation Drive or Exhaust tubing ports -> Blocked Exhalation drive or exhaust tubing/port ->Correct blockage.
+• Check patient circuit exhalation valve -> Blocked exhalation valve ->Replace exhalation valve patient circuit.
+• Check AW Pressure/Auto Cal pathway for kinked tubing -> Kinked tubing -> Correct tubing.
+• Faulty airway pressure transducer -> Replace SPM Board.
+#
+2062 Exhalation System Fault Description:
+PEEP measured > PEEP setting + 5 cmH2O.
+Possible Cause:
+• Blocked Exhalation drive or exhaust port.
+• Blocked exhalation valve.
+• Kinked tubing.
+• Faulty SPM Board.
+• Check Exhalation Drive or Exhaust tubing/ports -> Blocked Exhalation drive or exhaust tubing/port ->Correct blockage.
+• Check patient circuit exhalation valve -> Blocked exhalation valve ->Replace exhalation valve patient circuit.
+• Check AW/ Pressure/Auto Cal pathway for kinked tubing -> Kinked tubing -> Correct tubing.
+• None of the above -> Faulty SPM Board -> Replace SPM board.
+#
+3110 RTC Battery Low Description:
+RTC alarm at start up, date and time returned to default.
+Possible Cause:
+• RTC battery is drained.
+• RTC battery contact is intermittent.
+• Check RTC Battery -> RTC battery is drained -> Replace RTC battery.
+• Check RTC Battery Contact -> Retention battery holder clip -> RTC battery contact is intermittent -> Replace SPM board.
+#
+3120 Calibration Due Description:
+Calibration Due
+Possible Cause:
+• Calibration exceeds interval.
+• RTC battery is drained.
+• RTC battery contact is intermittent.
+• Check date ->Calibration exceeds interval -> Calibrate.
+• Check RTC Battery -> RTC battery is drained -> Replace RTC battery.
+• Check RTC Battery Contact -> Retention battery holder clip -> RTC battery contact is intermittent -> Replace SPM Board
+#
+3130 Self Check Fault Description:
+Ambient Pressure sensor reads near zero or full scale.
+Possible Cause:
+• Vent’s altitude sensor reads < 0.1 ATM.
+• Vent’s altitude sensor reads > 1.9 ATM.
+• Transducer output stuck.
+• Faulty Barometric Pressure Sensor.
+• Check for a faulty or stuck Faulty Barometric Pressure Sensor -> Altitude (TCE Log UUT Pressure) reads <0.1 ATM -> Replace SPM module.
+• Check for a faulty or stuck Faulty Barometric Pressure Sensor-> Altitude (TCE Log UUT Pressure) reads >1.9 ATM -> Replace SPM Board.
+• Check for a faulty or stuck Faulty Barometric Pressure Sensor-> Transducer output stuck ATM -> Replace SPM Board.
+#
+3131 Excessive Altitude Description:
+Ambient Pressure < 0.36 ATM (greater than 25,000 ft. altitude)
+Possible Cause:
+• If this error is displayed at an altitude below 25000 feet:
+• Faulty Barometric Pressure Sensor.
+• Check the barometric Pressure sensor, bring the ventilator to a stable altitude below 25000 feet, the alarm should clear, if the alarm does not clear -> the barometric transducer may be stuck -> Replace the SPM Board.
+#
+3132 Low Altitude Description:
+Ambient Pressure > 1.1 ATM (below -2000 feet).
+Possible Cause:
+• If this error occurs at altitudes that are above -2000 feet:
+• Faulty Barometric Pressure Sensor.
+• Check the barometric Pressure sensor -> Bring the ventilator to a stable altitude above -2000 feet if the alarm does not clear -> Replace the SPM Board.
+#
+3143 Self Check Fault Description:
+Temperature Sensor Fault displayed Possible Cause:
+• 1 of the 4 PGA's temperature measurements beyond threshold.
+• SPM Module is faulty.
+• Check to see if the error clears on power cycle ->Power Cycle device if the error persists -> Replace SPM Board.
+#
+1172 Self Check Failure Description:
+5V Self Check Failure Possible Cause:
+• PIM Board malfunction.
+• Any board in the front panel assembly or SPM module.
+• Check to see if the problem is within the SPM assembly by disconnecting the front panel and powering up the SPM, look for a blinking LED on the SPM PCB if no blinking LED-> replace PIM board.
+• Check to see if the problem is within the SPM assembly by disconnecting the front panel and powering up the SPM, look for a blinking LED on the SPM PCB if the SPM LED is blinking, then the problem resides within the front panel assembly-> replace front panel assembly.
+#
+1173 Self Check Failure Description:
+Communication Failure
+Possible Cause:
+• PIM to CPU ribbon damage.
+• CPU Module faulty.
+• Check for damage/seating of the PIM to CPU cable -> if the cable is damaged -> Replace PIM to CPU cable.
+• Replace the PIM to CPU cable and the problem persists -> CPU Module faulty-> Replace Front Panel Assembly.
+#
+1174 Self Check Failure Description:
+Unable to zero/null transducer offset on one or more transducers.
+Possible Cause:
+• kinked tubing
+• transducer offset drift (new offset too far from calibrated offset).
+• board contamination / bad transducer.
+• Check to see if the transducer(s) tubing is kinked -> tubing kinked -> Correct tubing.
+• Check to see if the calibration has drifted by recalibrating-> if the problem has resolved the issue was transducer drift if the problem persists -> Replace the SPM Board.
+• Check for contamination on the SPM Module or bad transducer -> SPM board contaminated/ Transducer bad -> Replace SPM Module.
+#
+1175 Self Check Failure Description:
+Loss of communication with any I2C device for 4 consecutive attempts (on the SPM).
+Possible Cause:
+• Stuck I2C bus.
+• Check to see if the problem will clear on power cycle by power cycling the unit-> if the problem has resolved the I2C was stuck, if the problem persists -> Replace SPM board.
+#
+1176 Self Check Failure Description:
+Any of the calibration tables has a bad CRC or the calibration header has a bad CRC.
+Possible Cause:
+• Calibration table corrupted.
+• Check to see if the calibration table has been corrupted by recalibrating (do not write defaults) -> if the problem has resolved the issue was the calibration table if the problem persists -> Replace the SPM Board.
+#
+2300 3300 Self Check Fault Description:
+The Masimo board indicates a failure.
+Possible Cause:
+• SPO2 Failure.
+• SPO2 Cable.
+• Check for proper connection between SPO2 board and CPU board.
+• Replace CPU/SPO2 Stack kit or front panel assembly.
+#
+2301 3301 Self Check Fault Description:
+Communication from the Masimo board has timed out.
+Possible Cause:
+• Board has become dislodged.
+• Masimo board is damaged.
+• Faulty Front Panel Module.
+• Check to see if the Masimo board has become dislodged -> the Masimo board has become dislodged -> reseat the Masimo board.
+• Check to see if the Masimo board is damaged -> Masimo board damaged -> Replace CPU/SPO2 Stack kit.
+• If the above actions do not resolve the issue -> Faulty Front Panel Module ->Replace Front Panel Assembly.
+#
+3311 Defective Pulse Ox
+Sensor Description:
+Alarm occurs when the pulse oximeter cannot identify the connected sensor or the sensor has failed.
+Possible Cause:
+• Masimo Flex Cable fault.
+• Internal Masimo board fault.
+• Check to see if Masimo Flex Cable is bad or the Internal Masimo board is bad-> if the Masimo Flex Cable is bad or the Internal Masimo board is bad -> Replace CPU/ SPO2 Stack kit or the front panel assembly.
+#
+3316 Invalid Pulse Ox Sensor Description:
+Alarm occurs does when the pulse oximeter does not recognize the connected sensor.
+Possible Cause:
+• Bad sensor, incompatible sensor.
+• Masimo Flex Cable is bad.
+• Masimo board.
+• Check for a bad sensor or incompatible sensor -> if the sensor is incompatible or bad -> Replace Sensor.
+• Check to see if Masimo Flex Cable is bad or the Internal Masimo board is bad-> if the Masimo Flex Cable is bad or the Internal Masimo board is bad -> Replace CPU/ SPO2 Stack kit or the front panel assembly.
+#
+2421 Self Check Fault Description:
+Input Circuit protection failed.
+Possible Cause:
+• Permanent fuse on PIM is blown.
+• Check the PIM fuse -> the PIM fuse is blown -> Replace the PIM Board.
+• Even if the PIM fuse is not blown if this error should persist -> Replace PIM Board.
+#
+3422 Battery Fault Description:
+The device is unable to detect a battery pack.
+Possible Cause:
+• The battery pack is missing.
+• The battery pack is unplugged.
+• The battery cable is damaged.
+• The battery pack is malfunctioning.
+• PIM board failure.
+• Check to see if the battery pack is missing->battery pack missing -> replace battery pack.
+• Check to see if the battery pack is unplugged -> battery is unplugged -> plug in the battery pack.
+• Check to see if the battery cable is damaged -> the battery cable is damaged -> replace battery pack.
+• Check to see if the battery pack is malfunctioning-> the battery pack is malfunctioning-> replace battery pack.
+• If none of the above->PIM board failure -> Replace the PIM board.
+#
+2423 3423 Self Check Fault/Battery Charging.
+Description:
+Power system failure
+Possible Cause:
+• Faulty PIM Board.
+• Replace the PIM board.
+• Faulty Lithium Ion Battery.
+• Replace Lithium Ion Battery.
+#
+3441 External Power
+Fault Description:
+The input voltage is too high; > 33 VDC after the fuse.
+Possible Cause:
+• faulty external power supply.
+• faulty PIM board.
+• Confirm that the applied voltage is in specified range -> External Power Supply Fault -> Replace external Power Supply.
+• If the above does not resolve the issue -> Faulty PIM board ->Replace the PIM board.
+#
+3442 External Power Fault
+Description:
+The input voltage is too low; < 11.5 VDC after the fuse.
+Possible Cause:
+• faulty external power supply or damaged connector.
+• faulty PIM board.
+• Confirm that the applied voltage is in specified range -> External Power Supply Fault -> Replace external Power Supply
+• If the above does not resolve the issue -> Faulty PIM board ->Replace the PIM Board.
+#
+3444 External Power Fault
+Description:
+Voltage in at <-1 VDC.
+Possible Cause:
+• faulty external power supply.
+• faulty PIM board.
+• Confirm that the applied voltage is in specified range -> External Power Supply Fault or DC to DC converter at fault -> Replace external Power Supply or DC to DC converter.
+• If the above does not resolve the issue -> Faulty PIM board ->Replace the PIM Board.
+#
+2450 3450 Battery Discharge Fault
+Description:
+The battery pack has reported an internal temperature of ≥ 70 degrees C.
+Possible Cause:
+• The internal temperature of the battery pack is too high.
+• Replace Battery Pack.
+• Device was put under a heat source.
+#
+3451 Battery Discharge Fault
+Description:
+The battery pack has reported an internal temperature of ≥ 75 degrees C.
+Possible Cause:
+• The internal temperature of the battery pack is too high and external power is plugged in.
+• Replace Battery Pack.
+#
+3452 Battery Charging Fault
+Description:
+external power present AND battery temp ≥ 45C
+Note: The battery pack will continue charging up to 50C if it was charging before 45C, but must be below 45C to re-initiate charging once 50C is exceeded. This is logic in the battery pack, not the EMV CPU.
+Possible Cause:
+• The internal temperature of the battery pack is too high and external power is plugged in, unable to charge the battery.
+• Replace Battery Pack.
+#
+3453 Battery Charging Fault
+Description:
+external power present AND battery temp ≤ 0°C
+Possible Cause:
+• The internal temperature of the battery pack is too low.
+• Replace Battery pack.
+#
+2455 3455 Battery Fault Description:
+System powered by battery AND battery communication.
+Possible Cause:
+• Cable loose or wire dislodged.
+• faulty Battery Pack.
+• faulty PIM board.
+• Check Battery cable -> Cable loose or wire dislodged -> Reseat battery cable.
+• Check Battery Pack -> faulty Battery Pack -> Replace battery pack.
+• If the above do not resolve the issue -> faulty PIM board-> Replace the PIM board.
+#
+3470 Self Check Fault Description:
+too many consecutive NACKS for any combination of LTC1760, LTC4260, or AN1112 (Note: PIM communication Failure).
+Possible Cause:
+• faulty or loose PIM to CPU cable.
+• faulty PIM board.
+• Check for damage/seating of the PIM to CPU cable -> faulty or loose PIM to CPU cable -> Replace the PIM to CPU cable.
+• If the above does not resolve the problem -> faulty PIM board -> Replace the PIM Board.
+#
+1471 Self Check Failure Description:
+cannot communicate with IO expander responsible for sampling buttons and driving LED's.
+Possible Cause:
+• Stuck I2C bus
+• dislodged CPU to UIM connection.
+• faulty UIM adapter or CPU board.
+• Check to see if the I2C bus is stuck by power cycling the device if the problem clears ->Stuck I2C bus -> No further action required.
+• Check the CPU to UIM connection ->dislodged connection on CPU(J4) to UIM(J1) connection -> resolve Issue.
+• If none of the above-> faulty UIM adapter or CPU board-> replace UIM Adapter or CPU/SPO2 Stack Kit.
+#
+1472 Self Check Failure Description:
+rate of corrupted packets from SPM is too high.
+Possible Cause:
+• faulty or loose PIM to CPU cable.
+• electrical interference.
+• Check damage/seating of the PIM to CPU cable->faulty or loose PIM to CPU cable -> replace the PIM to CPU Cable.
+• if the above does not resolve the issue possible cause ->electrical interference -> replace SPM Module.
+#
+1474 Self Check Failure Description:
+CPU and PIM communication gaps.
+Possible Cause:
+• faulty or loose PIM to CPU cable.
+• SPM application corrupted.
+• check to see if the SPM is operating by looking for a blinking LED (DS1) on the SPM PCB If the LED is blinking, Check for a faulty or loose PIM to CPU cable-> faulty or loose PIM to CPU cable -> replace PIM to CPU cable.
+• check to see if the SPM is operating by looking for a blinking LED (DS1) on the SPM PCB If the LED is Not blinking, the SPM firmware may be corrupt-> corrupt SPM firmware -> reprogram SPM Board.
+• If the above do not resolve the issue-> Faulty SPM Module-Replace SPM Board.
+#
+1475 Self Check Failure Description:
+cannot communicate with the LCD contrast control circuit.
+Possible Cause:
+• Stuck I2C bus
+• Faulty UIM Adapter. 
+• Check to see if the I2C bus is stuck by power cycling the device if the problem clears ->Stuck I2C bus -> No further action required.
+• If this does not resolve the issue-> faulty UIM adapter >replace the UIM adapter board.
+#
+1480 3480 Self Check Failure / Self Check Fault
+Description:
+CPU and SPM software revisions are not compatible (1480), or the SPM serial number stored in CPU does not match what is reported by the SPM (3480).
+Possible Cause:
+• Newly combined front case and SPM module.
+• Accidentally swapped assemblies.
+• Incomplete upgrade.
+• incorrect programming.
+• Is this a newly combined front case and SPM module->Newly combined front case and SPM module->Use RCS to Write "SPM SN" and "SPM Model" in "SN To Update" fields.
+• is it possible that assemblies have been accidentally swapped ->>Accidentally swapped assemblies -> Correct the assemblies.
+• Did this happen during an upgrade -> possible incomplete upgrade -> re-conduct upgrade, Use RCS to Write "SPM SN" and "SPM Model" in "SN To Update" fields.
+• Did this happen during programming -> possible incorrect programming -> re-conduct programing -> Use RCS to Write "SPM SN" and "SPM Model" in "SN To Update" fields.
+#

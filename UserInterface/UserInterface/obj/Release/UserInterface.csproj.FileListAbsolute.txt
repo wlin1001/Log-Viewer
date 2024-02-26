@@ -1,0 +1,11 @@
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\bin\Release\UserInterface.exe
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\bin\Release\UserInterface.pdb
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.csproj.AssemblyReference.cache
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.DataGridForm.resources
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.UserFormMain.resources
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.Properties.Resources.resources
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.csproj.GenerateResource.cache
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.exe
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.pdb
+C:\Users\Benjamin\Desktop\Beginner Project\WindowsFormsApp1\UserInterface\UserInterface\obj\Release\UserInterface.ErrorDescriptionForm.resources
